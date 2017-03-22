@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0D796B1E832D24001786F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D796A1E832D24001786F6 /* AppDelegate.swift */; };
+		5E0D796D1E832D24001786F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D796C1E832D24001786F6 /* ViewController.swift */; };
+		5E0D79701E832D24001786F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D796E1E832D24001786F6 /* Main.storyboard */; };
+		5E0D79721E832D24001786F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D79711E832D24001786F6 /* Assets.xcassets */; };
+		5E0D79751E832D24001786F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D79731E832D24001786F6 /* LaunchScreen.storyboard */; };
+		5E0D79801E832D24001786F6 /* swift_csvFileReaderAndWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D797F1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.swift */; };
+		5E0D798B1E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D798A1E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E0D797C1E832D24001786F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0D795F1E832D23001786F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E0D79661E832D23001786F6;
+			remoteInfo = swift_csvFileReaderAndWriter;
+		};
+		5E0D79871E832D24001786F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0D795F1E832D23001786F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E0D79661E832D23001786F6;
+			remoteInfo = swift_csvFileReaderAndWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E0D79671E832D23001786F6 /* swift_csvFileReaderAndWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_csvFileReaderAndWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0D796A1E832D24001786F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E0D796C1E832D24001786F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E0D796F1E832D24001786F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E0D79711E832D24001786F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E0D79741E832D24001786F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E0D79761E832D24001786F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0D797B1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_csvFileReaderAndWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0D797F1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_csvFileReaderAndWriterTests.swift; sourceTree = "<group>"; };
+		5E0D79811E832D24001786F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0D79861E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_csvFileReaderAndWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0D798A1E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_csvFileReaderAndWriterUITests.swift; sourceTree = "<group>"; };
+		5E0D798C1E832D24001786F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0D79641E832D23001786F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79781E832D24001786F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79831E832D24001786F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0D795E1E832D23001786F6 = {
+			isa = PBXGroup;
+			children = (
+				5E0D79691E832D23001786F6 /* swift_csvFileReaderAndWriter */,
+				5E0D797E1E832D24001786F6 /* swift_csvFileReaderAndWriterTests */,
+				5E0D79891E832D24001786F6 /* swift_csvFileReaderAndWriterUITests */,
+				5E0D79681E832D23001786F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0D79681E832D23001786F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D79671E832D23001786F6 /* swift_csvFileReaderAndWriter.app */,
+				5E0D797B1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.xctest */,
+				5E0D79861E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D79691E832D23001786F6 /* swift_csvFileReaderAndWriter */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D796A1E832D24001786F6 /* AppDelegate.swift */,
+				5E0D796C1E832D24001786F6 /* ViewController.swift */,
+				5E0D796E1E832D24001786F6 /* Main.storyboard */,
+				5E0D79711E832D24001786F6 /* Assets.xcassets */,
+				5E0D79731E832D24001786F6 /* LaunchScreen.storyboard */,
+				5E0D79761E832D24001786F6 /* Info.plist */,
+			);
+			path = swift_csvFileReaderAndWriter;
+			sourceTree = "<group>";
+		};
+		5E0D797E1E832D24001786F6 /* swift_csvFileReaderAndWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D797F1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.swift */,
+				5E0D79811E832D24001786F6 /* Info.plist */,
+			);
+			path = swift_csvFileReaderAndWriterTests;
+			sourceTree = "<group>";
+		};
+		5E0D79891E832D24001786F6 /* swift_csvFileReaderAndWriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D798A1E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.swift */,
+				5E0D798C1E832D24001786F6 /* Info.plist */,
+			);
+			path = swift_csvFileReaderAndWriterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0D79661E832D23001786F6 /* swift_csvFileReaderAndWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0D798F1E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriter" */;
+			buildPhases = (
+				5E0D79631E832D23001786F6 /* Sources */,
+				5E0D79641E832D23001786F6 /* Frameworks */,
+				5E0D79651E832D23001786F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_csvFileReaderAndWriter;
+			productName = swift_csvFileReaderAndWriter;
+			productReference = 5E0D79671E832D23001786F6 /* swift_csvFileReaderAndWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E0D797A1E832D24001786F6 /* swift_csvFileReaderAndWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0D79921E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriterTests" */;
+			buildPhases = (
+				5E0D79771E832D24001786F6 /* Sources */,
+				5E0D79781E832D24001786F6 /* Frameworks */,
+				5E0D79791E832D24001786F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E0D797D1E832D24001786F6 /* PBXTargetDependency */,
+			);
+			name = swift_csvFileReaderAndWriterTests;
+			productName = swift_csvFileReaderAndWriterTests;
+			productReference = 5E0D797B1E832D24001786F6 /* swift_csvFileReaderAndWriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E0D79851E832D24001786F6 /* swift_csvFileReaderAndWriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0D79951E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriterUITests" */;
+			buildPhases = (
+				5E0D79821E832D24001786F6 /* Sources */,
+				5E0D79831E832D24001786F6 /* Frameworks */,
+				5E0D79841E832D24001786F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E0D79881E832D24001786F6 /* PBXTargetDependency */,
+			);
+			name = swift_csvFileReaderAndWriterUITests;
+			productName = swift_csvFileReaderAndWriterUITests;
+			productReference = 5E0D79861E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E0D795F1E832D23001786F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Brian Ho";
+				TargetAttributes = {
+					5E0D79661E832D23001786F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+					};
+					5E0D797A1E832D24001786F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E0D79661E832D23001786F6;
+					};
+					5E0D79851E832D24001786F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E0D79661E832D23001786F6;
+					};
+				};
+			};
+			buildConfigurationList = 5E0D79621E832D23001786F6 /* Build configuration list for PBXProject "swift_csvFileReaderAndWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E0D795E1E832D23001786F6;
+			productRefGroup = 5E0D79681E832D23001786F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0D79661E832D23001786F6 /* swift_csvFileReaderAndWriter */,
+				5E0D797A1E832D24001786F6 /* swift_csvFileReaderAndWriterTests */,
+				5E0D79851E832D24001786F6 /* swift_csvFileReaderAndWriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E0D79651E832D23001786F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D79751E832D24001786F6 /* LaunchScreen.storyboard in Resources */,
+				5E0D79721E832D24001786F6 /* Assets.xcassets in Resources */,
+				5E0D79701E832D24001786F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79791E832D24001786F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79841E832D24001786F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0D79631E832D23001786F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D796D1E832D24001786F6 /* ViewController.swift in Sources */,
+				5E0D796B1E832D24001786F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79771E832D24001786F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D79801E832D24001786F6 /* swift_csvFileReaderAndWriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0D79821E832D24001786F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0D798B1E832D24001786F6 /* swift_csvFileReaderAndWriterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E0D797D1E832D24001786F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E0D79661E832D23001786F6 /* swift_csvFileReaderAndWriter */;
+			targetProxy = 5E0D797C1E832D24001786F6 /* PBXContainerItemProxy */;
+		};
+		5E0D79881E832D24001786F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E0D79661E832D23001786F6 /* swift_csvFileReaderAndWriter */;
+			targetProxy = 5E0D79871E832D24001786F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E0D796E1E832D24001786F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0D796F1E832D24001786F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E0D79731E832D24001786F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0D79741E832D24001786F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E0D798D1E832D24001786F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E0D798E1E832D24001786F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E0D79901E832D24001786F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E0D79911E832D24001786F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E0D79931E832D24001786F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_csvFileReaderAndWriter.app/swift_csvFileReaderAndWriter";
+			};
+			name = Debug;
+		};
+		5E0D79941E832D24001786F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_csvFileReaderAndWriter.app/swift_csvFileReaderAndWriter";
+			};
+			name = Release;
+		};
+		5E0D79961E832D24001786F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swift_csvFileReaderAndWriter;
+			};
+			name = Debug;
+		};
+		5E0D79971E832D24001786F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = swift_csvFileReaderAndWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.swift-csvFileReaderAndWriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = swift_csvFileReaderAndWriter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0D79621E832D23001786F6 /* Build configuration list for PBXProject "swift_csvFileReaderAndWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D798D1E832D24001786F6 /* Debug */,
+				5E0D798E1E832D24001786F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E0D798F1E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D79901E832D24001786F6 /* Debug */,
+				5E0D79911E832D24001786F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E0D79921E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D79931E832D24001786F6 /* Debug */,
+				5E0D79941E832D24001786F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E0D79951E832D24001786F6 /* Build configuration list for PBXNativeTarget "swift_csvFileReaderAndWriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0D79961E832D24001786F6 /* Debug */,
+				5E0D79971E832D24001786F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E0D795F1E832D23001786F6 /* Project object */;
+}
