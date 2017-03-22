@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetData(_ sender: UIButton) {
+        textView.text = "Nope, no Pizza here"
     }
     
     @IBAction func readData(_ sender: UIButton) {
@@ -38,6 +39,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func writeData(_ sender: UIButton) {
+        if CsvFileHandler.sharedInstance.writeDataToFile(file: "data", textData: textView.text) {
+            print("data written")
+        } else {
+            print("data not written")
+        }
     }
     
     // MARK: - 
