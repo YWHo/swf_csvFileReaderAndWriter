@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var textView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    // MARK: - UIButton Action
 
+    @IBAction func reportData(_ sender: UIButton) {
+    }
+    
+    @IBAction func resetData(_ sender: UIButton) {
+    }
+    
+    @IBAction func readData(_ sender: UIButton) {
+        textView.text = CsvFileHandler.sharedInstance.readDataFromFile(file: "data")
+    }
+    
+    @IBAction func writeData(_ sender: UIButton) {
+    }
+    
+    // MARK: - 
+    
+    
 }
 
