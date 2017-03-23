@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     // MARK: - UIButton Action
 
     @IBAction func reportData(_ sender: UIButton) {
+        textView.text = CsvFileHandler.sharedInstance.formatData(text: textView.text)
     }
     
     @IBAction func resetData(_ sender: UIButton) {

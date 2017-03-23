@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,32 +24,32 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rza-AV-LpL">
                                 <rect key="frame" x="16" y="20" width="343" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLi-LN-cHd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2P8-c9-X6T">
                                         <rect key="frame" x="0.0" y="0.0" width="86" height="50"/>
+                                        <state key="normal" title="Read"/>
+                                        <connections>
+                                            <action selector="readData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pz2-QB-5O9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLi-LN-cHd">
+                                        <rect key="frame" x="86" y="0.0" width="85.5" height="50"/>
                                         <state key="normal" title="Reset"/>
                                         <connections>
                                             <action selector="resetData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHl-OQ-31Z"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2P8-c9-X6T">
-                                        <rect key="frame" x="86" y="0.0" width="85.5" height="50"/>
-                                        <state key="normal" title="Load"/>
-                                        <connections>
-                                            <action selector="readData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pz2-QB-5O9"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBT-N7-C8L">
-                                        <rect key="frame" x="171.5" y="0.0" width="86" height="50"/>
-                                        <state key="normal" title="Save"/>
-                                        <connections>
-                                            <action selector="writeData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QEe-FG-6ll"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-ys-8xI">
-                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="50"/>
+                                        <rect key="frame" x="171.5" y="0.0" width="86" height="50"/>
                                         <state key="normal" title="Report"/>
                                         <connections>
                                             <action selector="reportData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8P7-z4-ZlS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBT-N7-C8L">
+                                        <rect key="frame" x="257.5" y="0.0" width="85.5" height="50"/>
+                                        <state key="normal" title="Write"/>
+                                        <connections>
+                                            <action selector="writeData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QEe-FG-6ll"/>
                                         </connections>
                                     </button>
                                 </subviews>

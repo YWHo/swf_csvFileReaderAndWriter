@@ -14,6 +14,9 @@ class CsvFileHandler: NSObject {
     static let sharedInstance = CsvFileHandler();
     private override init() {};
     
+    private var data:[[String:String]] = []
+    private var columnTitles:[String] = []
+    
     // Other methods
     func readDataFromFile(file: String) -> String? {
         
@@ -57,6 +60,64 @@ class CsvFileHandler: NSObject {
         
     }
     
+    private func cleanRows(text:String)->String{
+        var cleanFile = text
+        
+        cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
+        cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
+        
+        return cleanFile
+    }
     
+    private func convertCSV(text: String) {
+        let rows = cleanRows(text: text).components(separatedBy: "\n")
+        
+        if rows.count > 0 {
+            
+            data = []
+            columnTitles = getStringFieldsForRow(row:rows.first!, delimiter:",")
+            for row in rows{
+                let fields = getStringFieldsForRow(row:row, delimiter:",")
+                if fields.count != columnTitles.count {continue}
+                
+                var dataRow = [String:String]()
+                for (index, field) in fields.enumerated() {
+                    let fieldName = columnTitles[index]
+                    dataRow[fieldName] = field
+                }
+                data += [dataRow] // append into data array
+            }
+            
+        } else {
+            
+            print("No data in file")
+            
+        }
+    }
     
+    private func getStringFieldsForRow(row:String, delimiter:String)-> [String] {
+        return row.components(separatedBy: delimiter)
+    }
+    
+    func formatData(text: String) -> String {
+        convertCSV(text: text)
+        var tableString = ""
+        var rowString = ""
+        
+        print("data: \(data)")
+        for row in data {
+            rowString = ""
+            for fieldName in columnTitles{
+                guard let field = row[fieldName] else{
+                    print("field not found: \(fieldName)")
+                    continue
+                }
+                rowString += String(format:"%@     ",field)
+            }
+            tableString += rowString + "\n"
+        }
+        
+        return tableString
+
+    }
 }
